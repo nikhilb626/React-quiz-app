@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root,body{
+  background:#b7e4c7
+}
+
+
+.heading{
+  width: fit-content;
+  margin: 30px auto;
+  font-size: 2.3rem;
+}
+
+
+.quest_container{
+  position: absolute;
+  width: 80%;
+  top: 200px;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background:#52b788;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right: 20px;
+  text-align:center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+
+.answers_container{
+  position: absolute;
+  top: 390px;
+  width: 80%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.answers_container button{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.answers_container button:active{
+  background:#40916c;
+  color: white;
+}
+
+
+.quest_status{
+  background:#b7e4c7;
+  color: black;
+  width:fit-content;
+  margin: 0px auto;
+  padding: 4px 10px;
+  font-size :1.2rem;
+}
+
+.score_section{
+  width: 60%;
+  height: 300px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background:#40916c;
+  box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 28px 2px rgba(0,0,0,0.42);
+
+}
+
+.score{
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 50px;
+  color: rgb(204, 204, 204);
+}
+
+.declare h1{
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 50px;
+  font-size: 2.5rem;
+
+}
+
+.declare h1 i{
+  margin-left:10px;
+  font-size: 2.5rem;
+}
+
+
+.home_heading{
+  width: fit-content;
+  margin: 10px auto;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.quiz_points{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: rgb(206, 206, 206);
+
+}
+
+.home_links{
+  width: fit-content;
+  margin: 40px auto;
+padding:6px 12px;
+background: #1b4332;
+box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.42);
+}
+
+.home_links a{
+  text-decoration:none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2rem;
+
+}
+
+.home_links:active{
+background: #0b1b14;
+
+}
